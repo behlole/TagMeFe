@@ -1,0 +1,55 @@
+layout {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    /* Base styles for individual layouts */
+    > * {
+        position: relative;
+        display: flex;
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    /* Base styles for components that load as a route */
+    router-outlet {
+
+        + * {
+            position: relative;
+            display: flex;
+            flex: 1 1 auto;
+            width: 100%;
+        }
+    }
+}
+
+.dark fuse-vertical-navigation-aside-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-aside-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced, .dark fuse-vertical-navigation-basic-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-basic-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced, .dark fuse-vertical-navigation-collapsable-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-collapsable-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced {
+    --tw-bg-opacity: 1;
+    background-color: red;
+}
+
+fuse-vertical-navigation.fuse-vertical-navigation-position-left .fuse-vertical-navigation-wrapper {
+    background-color: white;
+}
+
+.dark fuse-vertical-navigation-aside-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-active-forced):not(.fuse-vertical-navigation-item-active):not(.fuse-vertical-navigation-item-disabled):hover, .dark fuse-vertical-navigation-basic-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-active-forced):not(.fuse-vertical-navigation-item-active):not(.fuse-vertical-navigation-item-disabled):hover, .dark fuse-vertical-navigation-collapsable-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-active-forced):not(.fuse-vertical-navigation-item-active):not(.fuse-vertical-navigation-item-disabled):hover {
+    --tw-bg-opacity: 0.12;
+    background: #46b345;
+    color: white;
+}
+.fuse-vertical-navigation-item-title{
+    span{
+        color: #244E67;
+    }
+}
+
+.dark fuse-vertical-navigation-aside-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-aside-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced, .dark fuse-vertical-navigation-basic-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-basic-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced, .dark fuse-vertical-navigation-collapsable-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-collapsable-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced {
+    background: #46b345 !important;
+    color: white;
+    span{
+        color: white;
+    }
+
+}

@@ -1,0 +1,8 @@
+/* ----------------------------------------------------------------------------------------------------- */
+/*  @ Import/write your custom styles here.
+/*  @ Styles from this file will override 'vendors.scss' and Fuse's base styles.
+/* ----------------------------------------------------------------------------------------------------- */
+.dark fuse-vertical-navigation-aside-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-aside-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced, .dark fuse-vertical-navigation-basic-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-basic-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced, .dark fuse-vertical-navigation-collapsable-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active, .dark fuse-vertical-navigation-collapsable-item > .fuse-vertical-navigation-item-wrapper .fuse-vertical-navigation-item:not(.fuse-vertical-navigation-item-disabled).fuse-vertical-navigation-item-active-forced {
+    --tw-bg-opacity: 1;
+    background-color: red;
+}
